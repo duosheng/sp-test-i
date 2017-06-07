@@ -95,8 +95,8 @@ static NSDictionary * sCommonParams=nil;
         SecCertificateRef serverCertificate = SecTrustGetCertificateAtIndex(serverTrust, 0);
         NSData *serverData = (__bridge_transfer NSData*)SecCertificateCopyData(serverCertificate);
         NSString *certMd5=[SpiderUtil getMD5WithData:serverData];
-        if ([challenge.protectionSpace.host isEqualToString:@"api.dtworkroom.com"]
-            &&[@"3b63ed1423a718c1226c04244d6f90e0" isEqualToString:certMd5])
+        if (([challenge.protectionSpace.host isEqualToString:@"api.dtworkroom.com"]
+            &&[@"3b63ed1423a718c1226c04244d6f90e0" isEqualToString:certMd5])||[challenge.protectionSpace.host isEqualToString:@"dspider.dtworkroom.com"])
         {
             NSURLCredential *credential = [NSURLCredential credentialForTrust:serverTrust];
             [challenge.sender useCredential:credential forAuthenticationChallenge:challenge];
