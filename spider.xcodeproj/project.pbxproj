@@ -7,15 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8152E50A1E88E8A100BB40BE /* dSpider.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8152E5071E88E03400BB40BE /* dSpider.h */; };
+		8152E50C1E88E9F400BB40BE /* dSpider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8152E50B1E88E9F400BB40BE /* dSpider.m */; };
+		815A98AD1E95F51E00704B1E /* libspidersdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 815A989F1E95EBDE00704B1E /* libspidersdk.a */; };
+		815A98B41E9612F700704B1E /* DUIwebview.m in Sources */ = {isa = PBXBuildFile; fileRef = 815A98B01E9612F700704B1E /* DUIwebview.m */; };
+		815A98B51E9612F700704B1E /* DWebview.m in Sources */ = {isa = PBXBuildFile; fileRef = 815A98B11E9612F700704B1E /* DWebview.m */; };
+		815A98B61E9612F700704B1E /* DWKwebview.m in Sources */ = {isa = PBXBuildFile; fileRef = 815A98B21E9612F700704B1E /* DWKwebview.m */; };
+		815A98B71E9612F700704B1E /* JSBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 815A98B31E9612F700704B1E /* JSBUtil.m */; };
 		815FCC651E1CD9780073CA79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 815FCC641E1CD9780073CA79 /* main.m */; };
 		815FCC681E1CD9780073CA79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 815FCC671E1CD9780073CA79 /* AppDelegate.m */; };
 		815FCC6B1E1CD9780073CA79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815FCC6A1E1CD9780073CA79 /* ViewController.m */; };
 		815FCC6E1E1CD9780073CA79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815FCC6C1E1CD9780073CA79 /* Main.storyboard */; };
 		815FCC701E1CD9780073CA79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 815FCC6F1E1CD9780073CA79 /* Assets.xcassets */; };
 		815FCC731E1CD9780073CA79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815FCC711E1CD9780073CA79 /* LaunchScreen.storyboard */; };
+		815FCC831E1CD9C20073CA79 /* spidersdk.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 815FCC801E1CD9C20073CA79 /* spidersdk.h */; };
+		815FCC901E1CDF880073CA79 /* SpiderUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 815FCC8B1E1CDF880073CA79 /* SpiderUtil.m */; };
+		815FCC911E1CDF880073CA79 /* JavaScriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 815FCC8D1E1CDF880073CA79 /* JavaScriptBridge.m */; };
+		815FCC921E1CDF880073CA79 /* DSpiderDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 815FCC8F1E1CDF880073CA79 /* DSpiderDataView.m */; };
+		815FCC981E1CF9CE0073CA79 /* DSpiderDataView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 815FCC8E1E1CDF880073CA79 /* DSpiderDataView.h */; };
+		81932B501E2376D100E6E46A /* DSpiderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81932B4F1E2376D100E6E46A /* DSpiderViewController.m */; };
+		81932B531E2378FA00E6E46A /* DSCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81932B521E2378FA00E6E46A /* DSCircleProgressView.m */; };
+		81932B591E24AB1000E6E46A /* DSWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81932B581E24AB1000E6E46A /* DSWaveView.m */; };
+		81945F281E23553D00137731 /* SpiderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81945F271E23553D00137731 /* SpiderView.m */; };
+		81D6EAE81E810C4B00757F6A /* SpiderUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 815FCC8A1E1CDF880073CA79 /* SpiderUtil.h */; };
+		81D6EAE91E810C4B00757F6A /* JavaScriptBridge.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 815FCC8C1E1CDF880073CA79 /* JavaScriptBridge.h */; };
+		81D6EAEA1E810C4B00757F6A /* SpiderView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 81945F261E23553D00137731 /* SpiderView.h */; };
+		81D6EAEB1E810C4B00757F6A /* DSpiderViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 81932B4E1E2376D100E6E46A /* DSpiderViewController.h */; };
+		81D6EAEC1E810C4B00757F6A /* DSCircleProgressView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 81932B511E2378FA00E6E46A /* DSCircleProgressView.h */; };
+		81D6EAED1E810C4B00757F6A /* DSWaveView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 81932B571E24AB1000E6E46A /* DSWaveView.h */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		815FCC951E1CF81D0073CA79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 815FCC581E1CD9780073CA79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 815FCC7D1E1CD9C20073CA79;
+			remoteInfo = spidersdk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		815FCC7C1E1CD9C20073CA79 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				8152E50A1E88E8A100BB40BE /* dSpider.h in CopyFiles */,
+				81D6EAE81E810C4B00757F6A /* SpiderUtil.h in CopyFiles */,
+				81D6EAE91E810C4B00757F6A /* JavaScriptBridge.h in CopyFiles */,
+				81D6EAEA1E810C4B00757F6A /* SpiderView.h in CopyFiles */,
+				81D6EAEB1E810C4B00757F6A /* DSpiderViewController.h in CopyFiles */,
+				81D6EAEC1E810C4B00757F6A /* DSCircleProgressView.h in CopyFiles */,
+				81D6EAED1E810C4B00757F6A /* DSWaveView.h in CopyFiles */,
+				815FCC981E1CF9CE0073CA79 /* DSpiderDataView.h in CopyFiles */,
+				815FCC831E1CD9C20073CA79 /* spidersdk.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8152E5071E88E03400BB40BE /* dSpider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dSpider.h; sourceTree = "<group>"; };
+		8152E50B1E88E9F400BB40BE /* dSpider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dSpider.m; sourceTree = "<group>"; };
+		8152E50D1E88EFC200BB40BE /* dsbridge.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = dsbridge.a; path = ../dsbridge/Build/Products/dsbridge.a; sourceTree = "<group>"; };
+		8152E50F1E88F2DA00BB40BE /* dsbridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsbridge.h; sourceTree = "<group>"; };
+		8152E5101E88F2DA00BB40BE /* DUIwebview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUIwebview.h; sourceTree = "<group>"; };
+		8152E5111E88F2DA00BB40BE /* DWebview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWebview.h; sourceTree = "<group>"; };
+		8152E5121E88F2DA00BB40BE /* DWKwebview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWKwebview.h; sourceTree = "<group>"; };
+		8152E5131E88F2DA00BB40BE /* JSBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBUtil.h; sourceTree = "<group>"; };
+		8152E5141E88F2DA00BB40BE /* JSBWebEventDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBWebEventDelegate.h; sourceTree = "<group>"; };
+		8152E5161E88F59600BB40BE /* libdsbridge.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdsbridge.a; path = "../dsbridge/Build/Products/Release-iphonesimulator/libdsbridge.a"; sourceTree = "<group>"; };
+		815A98991E95E97300704B1E /* libdsbridge.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdsbridge.a; path = "../dsbridge/Build/Products/Release-iphoneos/libdsbridge.a"; sourceTree = "<group>"; };
+		815A989D1E95EB3C00704B1E /* libspidersdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libspidersdk.a; path = "../../../../Library/Developer/Xcode/DerivedData/spider-esahesesppcqqncntbudwvpyqlwz/Build/Products/Release-iphoneos/libspidersdk.a"; sourceTree = "<group>"; };
+		815A989F1E95EBDE00704B1E /* libspidersdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libspidersdk.a; path = "../../../../Library/Developer/Xcode/DerivedData/spider-esahesesppcqqncntbudwvpyqlwz/Build/Products/libspidersdk.a"; sourceTree = "<group>"; };
+		815A98A41E95EE1B00704B1E /* libdsbridge.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdsbridge.a; path = "../dsbridge/Build/Products/Debug-iphoneos/libdsbridge.a"; sourceTree = "<group>"; };
+		815A98B01E9612F700704B1E /* DUIwebview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUIwebview.m; sourceTree = "<group>"; };
+		815A98B11E9612F700704B1E /* DWebview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWebview.m; sourceTree = "<group>"; };
+		815A98B21E9612F700704B1E /* DWKwebview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWKwebview.m; sourceTree = "<group>"; };
+		815A98B31E9612F700704B1E /* JSBUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBUtil.m; sourceTree = "<group>"; };
 		815FCC601E1CD9780073CA79 /* spider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		815FCC641E1CD9780073CA79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		815FCC661E1CD9780073CA79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,13 +97,39 @@
 		815FCC6F1E1CD9780073CA79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		815FCC721E1CD9780073CA79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		815FCC741E1CD9780073CA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815FCC7E1E1CD9C20073CA79 /* libspidersdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libspidersdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		815FCC801E1CD9C20073CA79 /* spidersdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spidersdk.h; sourceTree = "<group>"; };
+		815FCC8A1E1CDF880073CA79 /* SpiderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpiderUtil.h; sourceTree = "<group>"; };
+		815FCC8B1E1CDF880073CA79 /* SpiderUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpiderUtil.m; sourceTree = "<group>"; };
+		815FCC8C1E1CDF880073CA79 /* JavaScriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaScriptBridge.h; sourceTree = "<group>"; };
+		815FCC8D1E1CDF880073CA79 /* JavaScriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaScriptBridge.m; sourceTree = "<group>"; };
+		815FCC8E1E1CDF880073CA79 /* DSpiderDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSpiderDataView.h; sourceTree = "<group>"; };
+		815FCC8F1E1CDF880073CA79 /* DSpiderDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSpiderDataView.m; sourceTree = "<group>"; };
+		815FCCA81E1D175B0073CA79 /* libdsbridge.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdsbridge.a; path = "../dsbridge/Build/Products/Debug-iphonesimulator/libdsbridge.a"; sourceTree = "<group>"; };
+		81932B4E1E2376D100E6E46A /* DSpiderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSpiderViewController.h; sourceTree = "<group>"; };
+		81932B4F1E2376D100E6E46A /* DSpiderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSpiderViewController.m; sourceTree = "<group>"; };
+		81932B511E2378FA00E6E46A /* DSCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSCircleProgressView.h; sourceTree = "<group>"; };
+		81932B521E2378FA00E6E46A /* DSCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSCircleProgressView.m; sourceTree = "<group>"; };
+		81932B571E24AB1000E6E46A /* DSWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSWaveView.h; sourceTree = "<group>"; };
+		81932B581E24AB1000E6E46A /* DSWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSWaveView.m; sourceTree = "<group>"; };
+		81945F261E23553D00137731 /* SpiderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpiderView.h; sourceTree = "<group>"; };
+		81945F271E23553D00137731 /* SpiderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpiderView.m; sourceTree = "<group>"; };
+		81D6EAEF1E81155400757F6A /* libdsbridge.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdsbridge.a; path = ../dsbridge/Build/Products/libdsbridge.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		815FCC5D1E1CD9780073CA79 /* Frameworks */ = {
+		815A98971E95E94800704B1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815A98A61E95EF4800704B1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815A98AD1E95F51E00704B1E /* libspidersdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +140,9 @@
 			isa = PBXGroup;
 			children = (
 				815FCC621E1CD9780073CA79 /* spider */,
+				815FCC7F1E1CD9C20073CA79 /* spidersdk */,
 				815FCC611E1CD9780073CA79 /* Products */,
+				815FCCA71E1D175A0073CA79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				815FCC601E1CD9780073CA79 /* spider.app */,
+				815FCC7E1E1CD9C20073CA79 /* libspidersdk.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +179,55 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		815FCC7F1E1CD9C20073CA79 /* spidersdk */ = {
+			isa = PBXGroup;
+			children = (
+				8152E50F1E88F2DA00BB40BE /* dsbridge.h */,
+				8152E5101E88F2DA00BB40BE /* DUIwebview.h */,
+				8152E5111E88F2DA00BB40BE /* DWebview.h */,
+				8152E5121E88F2DA00BB40BE /* DWKwebview.h */,
+				815A98B01E9612F700704B1E /* DUIwebview.m */,
+				815A98B11E9612F700704B1E /* DWebview.m */,
+				815A98B21E9612F700704B1E /* DWKwebview.m */,
+				815A98B31E9612F700704B1E /* JSBUtil.m */,
+				8152E5131E88F2DA00BB40BE /* JSBUtil.h */,
+				8152E5141E88F2DA00BB40BE /* JSBWebEventDelegate.h */,
+				8152E50B1E88E9F400BB40BE /* dSpider.m */,
+				815FCC8A1E1CDF880073CA79 /* SpiderUtil.h */,
+				815FCC8B1E1CDF880073CA79 /* SpiderUtil.m */,
+				815FCC8C1E1CDF880073CA79 /* JavaScriptBridge.h */,
+				815FCC8D1E1CDF880073CA79 /* JavaScriptBridge.m */,
+				815FCC8E1E1CDF880073CA79 /* DSpiderDataView.h */,
+				815FCC8F1E1CDF880073CA79 /* DSpiderDataView.m */,
+				815FCC801E1CD9C20073CA79 /* spidersdk.h */,
+				81945F261E23553D00137731 /* SpiderView.h */,
+				81945F271E23553D00137731 /* SpiderView.m */,
+				81932B4E1E2376D100E6E46A /* DSpiderViewController.h */,
+				81932B4F1E2376D100E6E46A /* DSpiderViewController.m */,
+				81932B511E2378FA00E6E46A /* DSCircleProgressView.h */,
+				81932B521E2378FA00E6E46A /* DSCircleProgressView.m */,
+				81932B571E24AB1000E6E46A /* DSWaveView.h */,
+				81932B581E24AB1000E6E46A /* DSWaveView.m */,
+				8152E5071E88E03400BB40BE /* dSpider.h */,
+			);
+			path = spidersdk;
+			sourceTree = "<group>";
+		};
+		815FCCA71E1D175A0073CA79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				815A98A41E95EE1B00704B1E /* libdsbridge.a */,
+				815A989F1E95EBDE00704B1E /* libspidersdk.a */,
+				815A989D1E95EB3C00704B1E /* libspidersdk.a */,
+				815A98991E95E97300704B1E /* libdsbridge.a */,
+				8152E5161E88F59600BB40BE /* libdsbridge.a */,
+				8152E50D1E88EFC200BB40BE /* dsbridge.a */,
+				81D6EAEF1E81155400757F6A /* libdsbridge.a */,
+				815FCCA81E1D175B0073CA79 /* libdsbridge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -87,17 +236,35 @@
 			buildConfigurationList = 815FCC771E1CD9780073CA79 /* Build configuration list for PBXNativeTarget "spider" */;
 			buildPhases = (
 				815FCC5C1E1CD9780073CA79 /* Sources */,
-				815FCC5D1E1CD9780073CA79 /* Frameworks */,
 				815FCC5E1E1CD9780073CA79 /* Resources */,
+				815A98A61E95EF4800704B1E /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				815FCC961E1CF81D0073CA79 /* PBXTargetDependency */,
 			);
 			name = spider;
 			productName = spider;
 			productReference = 815FCC601E1CD9780073CA79 /* spider.app */;
 			productType = "com.apple.product-type.application";
+		};
+		815FCC7D1E1CD9C20073CA79 /* spidersdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815FCC841E1CD9C20073CA79 /* Build configuration list for PBXNativeTarget "spidersdk" */;
+			buildPhases = (
+				815FCC7A1E1CD9C20073CA79 /* Sources */,
+				815FCC7C1E1CD9C20073CA79 /* CopyFiles */,
+				815A98971E95E94800704B1E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spidersdk;
+			productName = spidersdk;
+			productReference = 815FCC7E1E1CD9C20073CA79 /* libspidersdk.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -110,6 +277,12 @@
 				TargetAttributes = {
 					815FCC5F1E1CD9780073CA79 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XTLLEQZMD7;
+						ProvisioningStyle = Automatic;
+					};
+					815FCC7D1E1CD9C20073CA79 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -128,6 +301,7 @@
 			projectRoot = "";
 			targets = (
 				815FCC5F1E1CD9780073CA79 /* spider */,
+				815FCC7D1E1CD9C20073CA79 /* spidersdk */,
 			);
 		};
 /* End PBXProject section */
@@ -156,7 +330,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		815FCC7A1E1CD9C20073CA79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81932B501E2376D100E6E46A /* DSpiderViewController.m in Sources */,
+				815FCC921E1CDF880073CA79 /* DSpiderDataView.m in Sources */,
+				81945F281E23553D00137731 /* SpiderView.m in Sources */,
+				815A98B61E9612F700704B1E /* DWKwebview.m in Sources */,
+				815A98B41E9612F700704B1E /* DUIwebview.m in Sources */,
+				815A98B71E9612F700704B1E /* JSBUtil.m in Sources */,
+				81932B591E24AB1000E6E46A /* DSWaveView.m in Sources */,
+				815FCC901E1CDF880073CA79 /* SpiderUtil.m in Sources */,
+				815A98B51E9612F700704B1E /* DWebview.m in Sources */,
+				81932B531E2378FA00E6E46A /* DSCircleProgressView.m in Sources */,
+				815FCC911E1CDF880073CA79 /* JavaScriptBridge.m in Sources */,
+				8152E50C1E88E9F400BB40BE /* dSpider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		815FCC961E1CF81D0073CA79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 815FCC7D1E1CD9C20073CA79 /* spidersdk */;
+			targetProxy = 815FCC951E1CF81D0073CA79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		815FCC6C1E1CD9780073CA79 /* Main.storyboard */ = {
@@ -202,6 +403,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -218,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -249,6 +451,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -259,8 +462,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -270,8 +474,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XTLLEQZMD7;
 				INFOPLIST_FILE = spider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = wendu.spider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -281,10 +490,67 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XTLLEQZMD7;
 				INFOPLIST_FILE = spider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = wendu.spider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		815FCC851E1CD9C20073CA79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/du/Documents/code/xcode/dsbridge/Build/Products/Debug-iphonesimulator/include/dsbridge",
+					"<Multiple",
+					"values>",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/spidersdk",
+					"/Users/du/Documents/code/xcode/dsbridge/Build/Products/Debug-iphonesimulator",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "spidersdk/spidersdk-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "/Users/du/Documents/code/xcode/dsbridge/Build/Products/Debug-iphonesimulator/include/dsbridge";
+			};
+			name = Debug;
+		};
+		815FCC861E1CD9C20073CA79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/du/Documents/code/xcode/dsbridge/Build/Products/Debug-iphonesimulator/include/dsbridge",
+					"<Multiple",
+					"values>",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/spidersdk",
+					"/Users/du/Documents/code/xcode/dsbridge/Build/Products/Debug-iphonesimulator",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "spidersdk/spidersdk-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "/Users/du/Documents/code/xcode/dsbridge/Build/Products/Debug-iphonesimulator/include/dsbridge";
 			};
 			name = Release;
 		};
@@ -307,6 +573,16 @@
 				815FCC791E1CD9780073CA79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815FCC841E1CD9C20073CA79 /* Build configuration list for PBXNativeTarget "spidersdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815FCC851E1CD9C20073CA79 /* Debug */,
+				815FCC861E1CD9C20073CA79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
